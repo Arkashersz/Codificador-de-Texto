@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 30, 1) 0%,
+    rgba(0, 0, 30, 0.7) 30%,
+    rgba(0, 0, 30, 0.4) 60%,
+    rgba(0, 0, 30, 0.1) 100%
+  );
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin: 10px 0;
+  resize: none;
+}
+
+input[type="number"] {
+  width: 60px;
+  margin-bottom: 10px; /* Adicionando espaço entre o campo de deslocamento e os botões */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px; /* Bordas redondas */
+  margin: 0 5px 10px; /* Espaçamento entre os botões */
+  width: 120px; /* Mesmo tamanho para todos os botões */
+}
+
+
+button:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador e Decodificador de Textos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Codificador e Decodificador de Textos</h1>
+        <label for="texto">Texto:</label><br>
+        <textarea id="texto" placeholder="Insira o texto aqui..."></textarea><br>
+        <label for="deslocamento">Deslocamento:</label>
+        <input type="number" id="deslocamento" value="3" min="1"><br>
+        <button onclick="codificar()">Codificar</button>
+        <button onclick="decodificar()">Decodificar</button>
+        <button onclick="copiar()">Copiar</button><br>
+        <label for="resultado">Resultado:</label><br>
+        <textarea id="resultado" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
